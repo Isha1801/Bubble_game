@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(172, 221, 172);
+}
+
+#panel{
+    width: 80%;
+    height: 80%;
+    background-color: floralwhite;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#ptop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(42, 112, 42);
+    color: aliceblue;
+
+}
+
+.element{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#ptop h2{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.box{
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+#pbottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: calc(100% - 70px);
+    padding: 10px;
+
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(42, 112, 42);
+    color: white;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(52, 95, 52);
+}
